@@ -1,0 +1,1223 @@
+{
+  "sha": "68dc5917284a53dfb5edd5864a2d85dc1bb44200",
+  "url": "https://api.github.com/repos/david-kooi/writing/git/trees/68dc5917284a53dfb5edd5864a2d85dc1bb44200",
+  "tree": [
+    {
+      "path": ".DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335d932769bd588cd5e87ec5932dda91d6101fe2",
+      "size": 6148,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/335d932769bd588cd5e87ec5932dda91d6101fe2"
+    },
+    {
+      "path": "By_Others",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61467127de2047260079cb9f0603f2c06b19d692",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/61467127de2047260079cb9f0603f2c06b19d692"
+    },
+    {
+      "path": "By_Others/Benji_mb.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b7d067ec9abe82105a99d15c429353ddcc1bd29",
+      "size": 5203,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9b7d067ec9abe82105a99d15c429353ddcc1bd29"
+    },
+    {
+      "path": "By_Others/Letter_to_a_Friend_Hemmingplay.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f61cc6ba243860c50e87169369bd91e48ad5ea",
+      "size": 1636,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/f6f61cc6ba243860c50e87169369bd91e48ad5ea"
+    },
+    {
+      "path": "By_Others/LonesomeCrowdedWest_mb.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7168ffc973ab529e15f1697bd596111defe8e90b",
+      "size": 3207,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/7168ffc973ab529e15f1697bd596111defe8e90b"
+    },
+    {
+      "path": "By_Others/modern_propoganda.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa7bcceede9e695ef0b4a9904cb4573358a5baf",
+      "size": 9436,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0fa7bcceede9e695ef0b4a9904cb4573358a5baf"
+    },
+    {
+      "path": "In_Progress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc48e5d2893199cb81243cfbb1b4832940b89e9a",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/cc48e5d2893199cb81243cfbb1b4832940b89e9a"
+    },
+    {
+      "path": "In_Progress/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6513b30eabc540a2a3d5ddfe8b1e9623e33aebd",
+      "size": 6148,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b6513b30eabc540a2a3d5ddfe8b1e9623e33aebd"
+    },
+    {
+      "path": "In_Progress/In_Progress.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aceaef3f8c1df5a6dfdca63eb03d648dad1150d2",
+      "size": 306,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/aceaef3f8c1df5a6dfdca63eb03d648dad1150d2"
+    },
+    {
+      "path": "In_Progress/MoreWritings.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a1cdb6fbfd5dd997f521bc8be746f8619f093d",
+      "size": 2451,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/23a1cdb6fbfd5dd997f521bc8be746f8619f093d"
+    },
+    {
+      "path": "In_Progress/SeaStory.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea0e95ff3ac2ce6d33bbc548bca67aa182c17cb",
+      "size": 3019,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9ea0e95ff3ac2ce6d33bbc548bca67aa182c17cb"
+    },
+    {
+      "path": "Letters ",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d263a483655cc7d65e9c45d719f4e785fd2f035",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/5d263a483655cc7d65e9c45d719f4e785fd2f035"
+    },
+    {
+      "path": "Letters /.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5008ddfcf53c02e82d7eee2e57c38e5672ef89f6",
+      "size": 6148,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/5008ddfcf53c02e82d7eee2e57c38e5672ef89f6"
+    },
+    {
+      "path": "Letters /Time of transition.rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e4ad823e6101cc1bb11d579b4ebebbeda2f91c",
+      "size": 601,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/88e4ad823e6101cc1bb11d579b4ebebbeda2f91c"
+    },
+    {
+      "path": "Letters /ToAVisitor(2014).rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38140bf4cd8a11a6614a37f0cdf6c501d890d412",
+      "size": 746,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/38140bf4cd8a11a6614a37f0cdf6c501d890d412"
+    },
+    {
+      "path": "Letters /ToAnna(2014).rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa223096bd313520280fba228b277c5268a74d1",
+      "size": 979,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9fa223096bd313520280fba228b277c5268a74d1"
+    },
+    {
+      "path": "Letters /ToLiz(2013).rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "550ca93d55f53881eeb978a1959dc672c55560a6",
+      "size": 2203,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/550ca93d55f53881eeb978a1959dc672c55560a6"
+    },
+    {
+      "path": "Letters /ToLiz2(2013).rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74aecfb2213e3277c22ab0a4f814d8bd92cda2d0",
+      "size": 4893,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/74aecfb2213e3277c22ab0a4f814d8bd92cda2d0"
+    },
+    {
+      "path": "Letters /ToLiz3(2016)",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8955dd3ba14b9510e4648b534c16ad97765079e",
+      "size": 3468,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/c8955dd3ba14b9510e4648b534c16ad97765079e"
+    },
+    {
+      "path": "Letters /ToTrent(2014).rtf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "793878a754b6002cbe310f143d650c0acbb85a0a",
+      "size": 901,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/793878a754b6002cbe310f143d650c0acbb85a0a"
+    },
+    {
+      "path": "Letters /Unsent_Letter_2016.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861b8eff8e3319a406698512ccfc2a9a060315de",
+      "size": 3457,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/861b8eff8e3319a406698512ccfc2a9a060315de"
+    },
+    {
+      "path": "Lists",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "addb1c21670b91fcf50e734f46ffc4b5c4c0475a",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/addb1c21670b91fcf50e734f46ffc4b5c4c0475a"
+    },
+    {
+      "path": "Lists/biblical_scholars.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1b111fefbbc577f346b32b428f4f4db87a3908",
+      "size": 26,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9e1b111fefbbc577f346b32b428f4f4db87a3908"
+    },
+    {
+      "path": "Lists/nice_words.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f4021598d4ccc77b54370825f23fa82d07c78c6",
+      "size": 2773,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/5f4021598d4ccc77b54370825f23fa82d07c78c6"
+    },
+    {
+      "path": "Poems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "552cc2a6f22fd0f9b7389e5451ce7b44bee72845",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/552cc2a6f22fd0f9b7389e5451ce7b44bee72845"
+    },
+    {
+      "path": "Poems/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "997f4873d0cef3449c24c3b681bcf1fd9fc8ac39",
+      "size": 8196,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/997f4873d0cef3449c24c3b681bcf1fd9fc8ac39"
+    },
+    {
+      "path": "Poems/2012-2013",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c4bc57ae8c7de9a049bd5463d0fc7dd2fbda5ec",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/5c4bc57ae8c7de9a049bd5463d0fc7dd2fbda5ec"
+    },
+    {
+      "path": "Poems/2012-2013/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "488d91aa179d24a2821eacb040984b13e52d5287",
+      "size": 6148,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/488d91aa179d24a2821eacb040984b13e52d5287"
+    },
+    {
+      "path": "Poems/2012-2013/A_Wish-2013.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d20e353aa330ea701b4fb6b7d34e4db58866ff8",
+      "size": 158,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/2d20e353aa330ea701b4fb6b7d34e4db58866ff8"
+    },
+    {
+      "path": "Poems/2012-2013/Anxiety.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00918e2f98979553eb193389ae4606d1d74f9310",
+      "size": 728,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/00918e2f98979553eb193389ae4606d1d74f9310"
+    },
+    {
+      "path": "Poems/2012-2013/Atlas Shrugged Analysis.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b227efec53e6aa6a90b6b1f3225ead2300ac06",
+      "size": 4673,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/75b227efec53e6aa6a90b6b1f3225ead2300ac06"
+    },
+    {
+      "path": "Poems/2012-2013/Can_You_Take_Me-2012.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a6f8341ad44b276282c80f9a4069d9849a903b1",
+      "size": 711,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0a6f8341ad44b276282c80f9a4069d9849a903b1"
+    },
+    {
+      "path": "Poems/2012-2013/Days_Fly_By.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01702b9ff9f6dffecc54a6e8ed3923418b57d476",
+      "size": 934,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/01702b9ff9f6dffecc54a6e8ed3923418b57d476"
+    },
+    {
+      "path": "Poems/2012-2013/December 12, 2012",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4877fdc047828a2dc2e79892ef4459ab269a0b1a",
+      "size": 2253,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/4877fdc047828a2dc2e79892ef4459ab269a0b1a"
+    },
+    {
+      "path": "Poems/2012-2013/December 13, 2012",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee57bf38743b0e7fc8d1ca6e3be03fc1722dd1df",
+      "size": 485,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/ee57bf38743b0e7fc8d1ca6e3be03fc1722dd1df"
+    },
+    {
+      "path": "Poems/2012-2013/December 21, 2012",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b49cc33996f5ae38aba59cfce4732cdd99f17e",
+      "size": 1286,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/18b49cc33996f5ae38aba59cfce4732cdd99f17e"
+    },
+    {
+      "path": "Poems/2012-2013/December 28, 2012 (On Naivity)",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c838ca8f27709ad74293e4eb2f6fee379d3816b",
+      "size": 1121,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3c838ca8f27709ad74293e4eb2f6fee379d3816b"
+    },
+    {
+      "path": "Poems/2012-2013/Discourse.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "63573cbbaa6388b437be52df17a3dbb61775f002",
+      "size": 1642,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/63573cbbaa6388b437be52df17a3dbb61775f002"
+    },
+    {
+      "path": "Poems/2012-2013/Inevitable_Eternity-2013.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9354fd6163147eae7a4beb7e588b76493f87c5",
+      "size": 276,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/7c9354fd6163147eae7a4beb7e588b76493f87c5"
+    },
+    {
+      "path": "Poems/2012-2013/January 1, 2012 [N.Y Resolution]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa59c46a855069c9e02abf3f011513c9b6ddb29e",
+      "size": 1853,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/aa59c46a855069c9e02abf3f011513c9b6ddb29e"
+    },
+    {
+      "path": "Poems/2012-2013/January 10, 2013 [Time Traveler by: HG Wells]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc5d225da827800a224135a0d01354c80cf6bb1",
+      "size": 1657,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/fbc5d225da827800a224135a0d01354c80cf6bb1"
+    },
+    {
+      "path": "Poems/2012-2013/January 15, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8c88964faef8b06927ebb495014ba2e9248f7e",
+      "size": 1064,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/8c8c88964faef8b06927ebb495014ba2e9248f7e"
+    },
+    {
+      "path": "Poems/2012-2013/January 17, 2013 [On Glen Beck's Utopian City]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18cd9e9915298e66351147c5b3c4d711163e4f32",
+      "size": 1271,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/18cd9e9915298e66351147c5b3c4d711163e4f32"
+    },
+    {
+      "path": "Poems/2012-2013/January 18, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b53e58e0088199954d991db3ac0befd79d26b23d",
+      "size": 1053,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b53e58e0088199954d991db3ac0befd79d26b23d"
+    },
+    {
+      "path": "Poems/2012-2013/January 21, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3de868a9a460f39b4ffe59c48aa54f1233bc5e87",
+      "size": 979,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3de868a9a460f39b4ffe59c48aa54f1233bc5e87"
+    },
+    {
+      "path": "Poems/2012-2013/January 22, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b007008bb6de9f6038faabd91dc6c2fa09c5f9",
+      "size": 438,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/d0b007008bb6de9f6038faabd91dc6c2fa09c5f9"
+    },
+    {
+      "path": "Poems/2012-2013/January 22, 2013 [night]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6015ba3fbbee2b08d3f5c6ace13d8a97bca6480",
+      "size": 747,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/c6015ba3fbbee2b08d3f5c6ace13d8a97bca6480"
+    },
+    {
+      "path": "Poems/2012-2013/January 23, 2013 [On Teen birthrate paradox]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d00399c4aa80e0ad1964fdb5748c634a5aacf0a",
+      "size": 1009,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/6d00399c4aa80e0ad1964fdb5748c634a5aacf0a"
+    },
+    {
+      "path": "Poems/2012-2013/January 31, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07db5fa3a1528c1f4858c8521c7c33c7ab04632",
+      "size": 2522,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/d07db5fa3a1528c1f4858c8521c7c33c7ab04632"
+    },
+    {
+      "path": "Poems/2012-2013/January 5, 2013 [My generation & Tribal experiments]",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2b20bc2c52f1223c72b855939eb0176b06019b",
+      "size": 3188,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/5f2b20bc2c52f1223c72b855939eb0176b06019b"
+    },
+    {
+      "path": "Poems/2012-2013/January 8, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca948c507c354ca3556690ed209f6890e485d7a",
+      "size": 1281,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/fca948c507c354ca3556690ed209f6890e485d7a"
+    },
+    {
+      "path": "Poems/2012-2013/January 9, 2013",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff3c2498fbe68465dafdbbfe2341a450f1df2c72",
+      "size": 3395,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/ff3c2498fbe68465dafdbbfe2341a450f1df2c72"
+    },
+    {
+      "path": "Poems/2012-2013/LeavingHome_ReturningHome.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1825409089c1a12b419a530569a11e226e6f02b1",
+      "size": 982,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/1825409089c1a12b419a530569a11e226e6f02b1"
+    },
+    {
+      "path": "Poems/2012-2013/Light_On_Shadow.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbff40a3a9c7007fd836fe0a6bb6210df3e1aad",
+      "size": 572,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/8bbff40a3a9c7007fd836fe0a6bb6210df3e1aad"
+    },
+    {
+      "path": "Poems/2012-2013/MachineLearningThoughts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e019908c3f06873e74fee0a0c94053bfc490fa",
+      "size": 226,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/42e019908c3f06873e74fee0a0c94053bfc490fa"
+    },
+    {
+      "path": "Poems/2012-2013/Mountain_Side.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc8ccba2a0af5149289aba4db88dcc5e068eca2",
+      "size": 544,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0bc8ccba2a0af5149289aba4db88dcc5e068eca2"
+    },
+    {
+      "path": "Poems/2012-2013/Mountain_Silhouette.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61b824aad2b3b72d159b15fece00753b93650aff",
+      "size": 433,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/61b824aad2b3b72d159b15fece00753b93650aff"
+    },
+    {
+      "path": "Poems/2012-2013/Romance.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306cfb131e97827730079c93abc07ecb7082663c",
+      "size": 486,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/306cfb131e97827730079c93abc07ecb7082663c"
+    },
+    {
+      "path": "Poems/2012-2013/Summer_rain-2012.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ea133443f0f58eae6c3a53b2090f8642ea9878",
+      "size": 490,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/30ea133443f0f58eae6c3a53b2090f8642ea9878"
+    },
+    {
+      "path": "Poems/2012-2013/Sunset_Context-2013.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09997547cb20e71e10602ac46d484657ec5eef8e",
+      "size": 196,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/09997547cb20e71e10602ac46d484657ec5eef8e"
+    },
+    {
+      "path": "Poems/2012-2013/To_College.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819c8b2a647f0f663cb4f080eb3dd517b401418b",
+      "size": 356,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/819c8b2a647f0f663cb4f080eb3dd517b401418b"
+    },
+    {
+      "path": "Poems/2012-2013/Young Dreams.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3fbf3a659cf7b64a5f2ef86a11d570da6a86a1",
+      "size": 417,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/2d3fbf3a659cf7b64a5f2ef86a11d570da6a86a1"
+    },
+    {
+      "path": "Poems/2012-2013/appeal_to_lacey.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be2e70b6b6c3805eadbc6874d4d71a9eac822af2",
+      "size": 998,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/be2e70b6b6c3805eadbc6874d4d71a9eac822af2"
+    },
+    {
+      "path": "Poems/2012-2013/highschool_repose.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4023cfd5757faed7a113a2959b38b27d13761cd",
+      "size": 559,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/c4023cfd5757faed7a113a2959b38b27d13761cd"
+    },
+    {
+      "path": "Poems/2014",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "891e0a87df1fad879cc11b20d2128f9b3074faf0",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/891e0a87df1fad879cc11b20d2128f9b3074faf0"
+    },
+    {
+      "path": "Poems/2014/(InProgress)Alley_Dweller-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5089cc48dcd818e8b86ce2d9eadf81ef8f021c8f",
+      "size": 3173,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/5089cc48dcd818e8b86ce2d9eadf81ef8f021c8f"
+    },
+    {
+      "path": "Poems/2014/65_Down_The_80-2014.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b859919468f7e701c222ab4546181db640ea5df6",
+      "size": 82317,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b859919468f7e701c222ab4546181db640ea5df6"
+    },
+    {
+      "path": "Poems/2014/65_Down_The_80-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f96844669b43167fde5384b80b45b70654c4c4eb",
+      "size": 452,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/f96844669b43167fde5384b80b45b70654c4c4eb"
+    },
+    {
+      "path": "Poems/2014/Along_Salem_River-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172a54b4255624a2cf4eedacf4b9106863e3309b",
+      "size": 1268,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/172a54b4255624a2cf4eedacf4b9106863e3309b"
+    },
+    {
+      "path": "Poems/2014/Along_Trinity_River-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59d6ce20f3db3024a60ecbcc3835984af516c73c",
+      "size": 534,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/59d6ce20f3db3024a60ecbcc3835984af516c73c"
+    },
+    {
+      "path": "Poems/2014/Anxious_Thoughts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96fc949573b552a1200ec77e028d6de0bb42ab45",
+      "size": 956,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/96fc949573b552a1200ec77e028d6de0bb42ab45"
+    },
+    {
+      "path": "Poems/2014/BuzzyBee's-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d02801db63c407619f92a34e0d54feceed5cb8f",
+      "size": 285,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/1d02801db63c407619f92a34e0d54feceed5cb8f"
+    },
+    {
+      "path": "Poems/2014/Carpet_Of_Green-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5cfa99ad5958e86dcf2805680fd66a3f024c2ca",
+      "size": 638,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b5cfa99ad5958e86dcf2805680fd66a3f024c2ca"
+    },
+    {
+      "path": "Poems/2014/Dreamscape_Afternoons-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "575dcf699d3c501fffbc608d74e889257f542e7c",
+      "size": 399,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/575dcf699d3c501fffbc608d74e889257f542e7c"
+    },
+    {
+      "path": "Poems/2014/Fernley-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec30ec5f3c1c9fa2f95cf440cdf5bf8e0b5179d",
+      "size": 324,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/bec30ec5f3c1c9fa2f95cf440cdf5bf8e0b5179d"
+    },
+    {
+      "path": "Poems/2014/IcyWinds-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "234ad97ed0606fccec36dcf1b6a72fd8b2e5d7bd",
+      "size": 270,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/234ad97ed0606fccec36dcf1b6a72fd8b2e5d7bd"
+    },
+    {
+      "path": "Poems/2014/Library_Of_The_Woods-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "410a631c60d0149cc402201263467bf81562bc92",
+      "size": 2348,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/410a631c60d0149cc402201263467bf81562bc92"
+    },
+    {
+      "path": "Poems/2014/LightOfLiquidGold-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ee8126dc51aebc4293ba4ee95ac5e739770bb5",
+      "size": 1661,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/54ee8126dc51aebc4293ba4ee95ac5e739770bb5"
+    },
+    {
+      "path": "Poems/2014/MoonstoneBeach(Meh)-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b965034aa88dc0cf69c3904be4aaacd0d680d575",
+      "size": 1147,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b965034aa88dc0cf69c3904be4aaacd0d680d575"
+    },
+    {
+      "path": "Poems/2014/Rejuvenation-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d74c81783637446090c04c286d8c896682a182",
+      "size": 366,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/e3d74c81783637446090c04c286d8c896682a182"
+    },
+    {
+      "path": "Poems/2014/SupermarketThoughts-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8deb415d48747fb3e7566f32bab65bc5a827ab",
+      "size": 1485,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0f8deb415d48747fb3e7566f32bab65bc5a827ab"
+    },
+    {
+      "path": "Poems/2015",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98f0ada18f8501eac068d002b54e044293eaa4fd",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/98f0ada18f8501eac068d002b54e044293eaa4fd"
+    },
+    {
+      "path": "Poems/2015/Balance-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acad49f20e5e1ea840c02427b606e2f461def076",
+      "size": 518,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/acad49f20e5e1ea840c02427b606e2f461def076"
+    },
+    {
+      "path": "Poems/2015/BelowTheSurface-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abea27dc9d194ec57d3d73a3c9d22c211778d89d",
+      "size": 584,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/abea27dc9d194ec57d3d73a3c9d22c211778d89d"
+    },
+    {
+      "path": "Poems/2015/Chains-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09a3a7dc3b6fc4facdc6170c2b6fb0469e4003b2",
+      "size": 685,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/09a3a7dc3b6fc4facdc6170c2b6fb0469e4003b2"
+    },
+    {
+      "path": "Poems/2015/DamnIt-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b997c84f8077b521b0301541603df2a5f16109c4",
+      "size": 370,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b997c84f8077b521b0301541603df2a5f16109c4"
+    },
+    {
+      "path": "Poems/2015/East_and_Into_The_Woods-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30de2243326ae8ef7b939780325b4d4e8c9ade2",
+      "size": 238,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/f30de2243326ae8ef7b939780325b4d4e8c9ade2"
+    },
+    {
+      "path": "Poems/2015/Frustration(Fall2015).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76dc119b5495f05c5684ceda6483498b8cd8c1d",
+      "size": 993,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/e76dc119b5495f05c5684ceda6483498b8cd8c1d"
+    },
+    {
+      "path": "Poems/2015/HighwaySigns-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e4ec7bf1306b7c156ae807304a711c0d1c5b08",
+      "size": 195,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/a4e4ec7bf1306b7c156ae807304a711c0d1c5b08"
+    },
+    {
+      "path": "Poems/2015/LostInYou-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9d3b1d5d3f28d1dd46e0bb7b3fb6f1c9d1f7bf",
+      "size": 1100,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9e9d3b1d5d3f28d1dd46e0bb7b3fb6f1c9d1f7bf"
+    },
+    {
+      "path": "Poems/2015/Our_Path(2015).txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdddfddaa2154ca87066493a819a5f895b540a4d",
+      "size": 1135,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/cdddfddaa2154ca87066493a819a5f895b540a4d"
+    },
+    {
+      "path": "Poems/2015/ParkingLost-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b85a9272fcde2b6a20a2d1005539e20951185542",
+      "size": 452,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b85a9272fcde2b6a20a2d1005539e20951185542"
+    },
+    {
+      "path": "Poems/2015/Realized-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319a73d7b78f7bfe66469274f651c6f1ed691ea5",
+      "size": 2446,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/319a73d7b78f7bfe66469274f651c6f1ed691ea5"
+    },
+    {
+      "path": "Poems/2015/Spilled_Tea-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cb9f5dc95ac7bf87f07c91ca7c8b50f576e1be",
+      "size": 359,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/a1cb9f5dc95ac7bf87f07c91ca7c8b50f576e1be"
+    },
+    {
+      "path": "Poems/2015/TheDoor-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4000c554779796a068aa33b7637a41d591fcfd7f",
+      "size": 1114,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/4000c554779796a068aa33b7637a41d591fcfd7f"
+    },
+    {
+      "path": "Poems/2015/TheWorld-2015.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891f344b121893f771dc427c99adb65016fa64b9",
+      "size": 6452,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/891f344b121893f771dc427c99adb65016fa64b9"
+    },
+    {
+      "path": "Poems/2015/acceptance_of_beliefs.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6281084d91cfea042ec270abca9104aae6db51",
+      "size": 1773,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3a6281084d91cfea042ec270abca9104aae6db51"
+    },
+    {
+      "path": "Poems/2015/to_summer.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b489b3215ec26ccde66104f88074229a941e8c9e",
+      "size": 381,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b489b3215ec26ccde66104f88074229a941e8c9e"
+    },
+    {
+      "path": "Poems/2016",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf7cb622b246e1ca9a8ad928120ccb36a85ef326",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/cf7cb622b246e1ca9a8ad928120ccb36a85ef326"
+    },
+    {
+      "path": "Poems/2016/2016_reflections.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b71f25063c05c654f283f852f4f48b8196fdcde",
+      "size": 8411,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/9b71f25063c05c654f283f852f4f48b8196fdcde"
+    },
+    {
+      "path": "Poems/2016/If_There_Is_Tomorrow.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90c7ec50de2770ed5b8d979b9a4c5a494fbdae71",
+      "size": 407,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/90c7ec50de2770ed5b8d979b9a4c5a494fbdae71"
+    },
+    {
+      "path": "Poems/2016/Mist_Wrapped_Hills.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8239d8c09c890fdf34861d39174f4453d4a823a",
+      "size": 907,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/f8239d8c09c890fdf34861d39174f4453d4a823a"
+    },
+    {
+      "path": "Poems/2016/New!_Tract_House_Suburb.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f44c0368563f7d07da60c9f0f2254b49b5ab5c",
+      "size": 1671,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/63f44c0368563f7d07da60c9f0f2254b49b5ab5c"
+    },
+    {
+      "path": "Poems/2016/ToWrite-2016.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e798eaae8dadc31f9f02e2762e59c22f67125db1",
+      "size": 366,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/e798eaae8dadc31f9f02e2762e59c22f67125db1"
+    },
+    {
+      "path": "Poems/2016/Untitled.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45afc2df0bd3748bd714cf72e6e4fb0bad200e1d",
+      "size": 250,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/45afc2df0bd3748bd714cf72e6e4fb0bad200e1d"
+    },
+    {
+      "path": "Poems/2016/Untitled2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d1812d5fd190e1073adc441599a4a565958c28",
+      "size": 1101,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/42d1812d5fd190e1073adc441599a4a565958c28"
+    },
+    {
+      "path": "Poems/2016/a_foaming_room.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6007f309f6fa5488defd4f258deb8ed5bdc34d",
+      "size": 420,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0c6007f309f6fa5488defd4f258deb8ed5bdc34d"
+    },
+    {
+      "path": "Poems/2016/amber_penate.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "087e479f4aa0f987e187cad5611fec70cdf1f727",
+      "size": 1338,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/087e479f4aa0f987e187cad5611fec70cdf1f727"
+    },
+    {
+      "path": "Poems/2016/furnace.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c2b3bce540a11c5880d06aa9969f9074bb0fdb",
+      "size": 405,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/52c2b3bce540a11c5880d06aa9969f9074bb0fdb"
+    },
+    {
+      "path": "Poems/2016/illuminate_the_ordinary.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07abc6378cb030999f36d049eb97768ed373ae8",
+      "size": 417,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/c07abc6378cb030999f36d049eb97768ed373ae8"
+    },
+    {
+      "path": "Poems/2016/love_2016.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc5631867293cb115bf9d2c59f97be2af56e745",
+      "size": 679,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/8cc5631867293cb115bf9d2c59f97be2af56e745"
+    },
+    {
+      "path": "Poems/2016/lust_2016.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2beab9ebb08fe8ed3fccfd12efd533cca856bcb1",
+      "size": 310,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/2beab9ebb08fe8ed3fccfd12efd533cca856bcb1"
+    },
+    {
+      "path": "Poems/2016/maeture.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a03f383c20f40f224bf49cd846a9f3e0d219c28",
+      "size": 754,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/0a03f383c20f40f224bf49cd846a9f3e0d219c28"
+    },
+    {
+      "path": "Poems/2016/mercurial_waves.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65e29e23b31ddae1bba55022a5a3781c067b1d52",
+      "size": 886,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/65e29e23b31ddae1bba55022a5a3781c067b1d52"
+    },
+    {
+      "path": "Poems/2016/mornings.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62502951b9c0daff508c77dbb40ea7195f6a2fe",
+      "size": 382,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/c62502951b9c0daff508c77dbb40ea7195f6a2fe"
+    },
+    {
+      "path": "Poems/2016/poems.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2abc53ce4767f6d8dcd312ca5d2146bb3c83f8",
+      "size": 6671,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3b2abc53ce4767f6d8dcd312ca5d2146bb3c83f8"
+    },
+    {
+      "path": "Poems/2016/spiled_tea.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "546e8c40417b054dc9ff10ee2e72a40f2326cb25",
+      "size": 383,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/546e8c40417b054dc9ff10ee2e72a40f2326cb25"
+    },
+    {
+      "path": "Poems/2016/stars_and_gems.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f2ac8290b4bc89445aee125c159ca6c42bb1a3",
+      "size": 456,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/88f2ac8290b4bc89445aee125c159ca6c42bb1a3"
+    },
+    {
+      "path": "Poems/2016/submersion.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a34b2272835f36619b970e81bdf756eaa1f4f3b4",
+      "size": 676,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/a34b2272835f36619b970e81bdf756eaa1f4f3b4"
+    },
+    {
+      "path": "Poems/2016/summer_close.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c9e818169d78c2e40b296b5e5a5ae9806490e2",
+      "size": 574,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/02c9e818169d78c2e40b296b5e5a5ae9806490e2"
+    },
+    {
+      "path": "Poems/2016/summer_compression.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbb1afc485d8d500109eebc224e77567ef1b4eba",
+      "size": 659,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/bbb1afc485d8d500109eebc224e77567ef1b4eba"
+    },
+    {
+      "path": "Poems/2016/swallow's_freedom_hopes_and_dreams.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54277d9eb36eaefeb9ac191d757b9f71e8c6faa",
+      "size": 2136,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/e54277d9eb36eaefeb9ac191d757b9f71e8c6faa"
+    },
+    {
+      "path": "Poems/2016/timing_threads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711ace1bad4f6f01ea514bb88b2335873f346a77",
+      "size": 406,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/711ace1bad4f6f01ea514bb88b2335873f346a77"
+    },
+    {
+      "path": "Poems/2017",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c26791eb515b528a3c39e9f67f79a229be9f64b1",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/c26791eb515b528a3c39e9f67f79a229be9f64b1"
+    },
+    {
+      "path": "Poems/2017/aknot.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "decc0aa7ab86cbf49044b1d5f105aa08c19300ba",
+      "size": 356,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/decc0aa7ab86cbf49044b1d5f105aa08c19300ba"
+    },
+    {
+      "path": "Poems/2017/dear_bird.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08cb61127b5ea651dffe670d95da9b4d26a5180",
+      "size": 458,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/a08cb61127b5ea651dffe670d95da9b4d26a5180"
+    },
+    {
+      "path": "Poems/2017/meditations.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4079aa45b6b82d4a5e3177bc1ea6451a0946e4",
+      "size": 1847,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/eb4079aa45b6b82d4a5e3177bc1ea6451a0946e4"
+    },
+    {
+      "path": "Poems/2017/piano_players.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03a1744895ac3acf9d01fe928381df6926df892c",
+      "size": 695,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/03a1744895ac3acf9d01fe928381df6926df892c"
+    },
+    {
+      "path": "Poems/2017/still_night.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c10bbc65f081b43b54b8fa4d553425697d8dc1",
+      "size": 338,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/68c10bbc65f081b43b54b8fa4d553425697d8dc1"
+    },
+    {
+      "path": "Poems/2017/train_waiting.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6479568e61c2c00f4bc419596ca20109212b7a",
+      "size": 394,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3c6479568e61c2c00f4bc419596ca20109212b7a"
+    },
+    {
+      "path": "README.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b7d6c3c001df4c8630b653a842ef4e49fe6acce",
+      "size": 1521,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/4b7d6c3c001df4c8630b653a842ef4e49fe6acce"
+    },
+    {
+      "path": "Reflections",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b17a432c74bd11dfef4a52c5bf854f644d91f0b8",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/b17a432c74bd11dfef4a52c5bf854f644d91f0b8"
+    },
+    {
+      "path": "Reflections/.DS_Store",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f63d77dd49e4d1a0a824d305a213eb652dd30f",
+      "size": 6148,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/17f63d77dd49e4d1a0a824d305a213eb652dd30f"
+    },
+    {
+      "path": "Reflections/2014",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84105b1647248f13b03b7f55d965c61f52fb868d",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/84105b1647248f13b03b7f55d965c61f52fb868d"
+    },
+    {
+      "path": "Reflections/2014/Thoughts_Before_a_Trip-2014.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6627d07a7796c53c755658cf7f446eff4174be58",
+      "size": 1028,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/6627d07a7796c53c755658cf7f446eff4174be58"
+    },
+    {
+      "path": "Reflections/2016",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "236069bd918b28d348f31f3d663a7c68a069aa6c",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/236069bd918b28d348f31f3d663a7c68a069aa6c"
+    },
+    {
+      "path": "Reflections/2016/digital_consumption.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e4c6dee6f5237da09ae592a93f1ceec290ec31",
+      "size": 1111,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/84e4c6dee6f5237da09ae592a93f1ceec290ec31"
+    },
+    {
+      "path": "Reflections/2016/fourth_july.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab6d30b58c81d015c0c4e7ae9cab0efb0f2605e",
+      "size": 636,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/aab6d30b58c81d015c0c4e7ae9cab0efb0f2605e"
+    },
+    {
+      "path": "Reflections/2016/ideas-2016.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed8bfa5bccee6043b4789a16f2bc420bc11f97c1",
+      "size": 6020,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/ed8bfa5bccee6043b4789a16f2bc420bc11f97c1"
+    },
+    {
+      "path": "Reflections/2016/reflections.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2bb775d18f43e0614451d9419512bf116839cd",
+      "size": 1171,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/4d2bb775d18f43e0614451d9419512bf116839cd"
+    },
+    {
+      "path": "Reflections/2016/social_media_thoughts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c073b5c9e1b1a33cf85813e08341862d1afa3cf",
+      "size": 1356,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/5c073b5c9e1b1a33cf85813e08341862d1afa3cf"
+    },
+    {
+      "path": "Reflections/2016/starbuck_rant.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "feb9ff3abb9df0e67207ccf4b0fe1136bb46bf6e",
+      "size": 890,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/feb9ff3abb9df0e67207ccf4b0fe1136bb46bf6e"
+    },
+    {
+      "path": "Reflections/2017",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aebd908a3416ba24a419b50ca819e56edc90e81",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/4aebd908a3416ba24a419b50ca819e56edc90e81"
+    },
+    {
+      "path": "Reflections/2017/for_you.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902c14728b5caac4b842398631d346fbb5a1d24b",
+      "size": 189,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/902c14728b5caac4b842398631d346fbb5a1d24b"
+    },
+    {
+      "path": "Reflections/2017/reflections.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d4c4b9af7adfbcfc7521cc731ca01f7efdd9d4",
+      "size": 1114,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/24d4c4b9af7adfbcfc7521cc731ca01f7efdd9d4"
+    },
+    {
+      "path": "Reflections/2017/untitled.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b286b8e4c8355fbaf8a7a6258b95a29af6fe437",
+      "size": 1046,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/3b286b8e4c8355fbaf8a7a6258b95a29af6fe437"
+    },
+    {
+      "path": "Stories",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffc5a3ea3357646bcfba2dfdfd1081c0e45fd7ff",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/ffc5a3ea3357646bcfba2dfdfd1081c0e45fd7ff"
+    },
+    {
+      "path": "Stories/BlasterWound.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e53ad53aaebff138a83e08ccbb748fb49ca9005",
+      "size": 4876,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/4e53ad53aaebff138a83e08ccbb748fb49ca9005"
+    },
+    {
+      "path": "Stories/Maeture_the_squirrel_hawk.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66adb0a4152c92d561fc1afb3a6af96a311af338",
+      "size": 795,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/66adb0a4152c92d561fc1afb3a6af96a311af338"
+    },
+    {
+      "path": "Stories/Trip_Log.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "942d5254698f54cf24f211c7017910aaf851c93e",
+      "size": 21826,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/942d5254698f54cf24f211c7017910aaf851c93e"
+    },
+    {
+      "path": "Stories/story.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e1557c4af8ebc996cf972831e5d612f3256b88",
+      "size": 12469,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/99e1557c4af8ebc996cf972831e5d612f3256b88"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a7a078f1b9bc867502236fa042ada8b1d01b5db",
+      "url": "https://api.github.com/repos/david-kooi/writing/git/trees/3a7a078f1b9bc867502236fa042ada8b1d01b5db"
+    },
+    {
+      "path": "scripts/rtf_to_txt.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15f780b36d2f78e9c4fb3d17da258566496ea9e",
+      "size": 121,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/b15f780b36d2f78e9c4fb3d17da258566496ea9e"
+    },
+    {
+      "path": "synonyms.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "987bdbca6788acb676e22aa782ea72d38378ed24",
+      "size": 87513,
+      "url": "https://api.github.com/repos/david-kooi/writing/git/blobs/987bdbca6788acb676e22aa782ea72d38378ed24"
+    }
+  ],
+  "truncated": false
+}

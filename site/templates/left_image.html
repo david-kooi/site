@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<table>
+		<tr>
+				<td style="vertical-align:top;">
+
+						<img src={{url_for('static', filename=image_path  )}} 
+											 style="float:left; image-orientation:from-image;
+													margin:0px 10px 0px 0px;" 
+											 width="225">
+
+				</td>
+
+
+				<td>
+
+						<div style="width:100%; display:inline-block; margin:0px 5px 30px 0px";>
+	
+								<p style="font-size:300%; margin:0px;"> {{title}} </p> 
+
+								<p style="margin:0px;"> {{sub_title}} </p>
+								<br>
+
+								{% if content_type == 'text' %}	
+
+								{% include "text_content.html" %}	
+
+								{% endif %}
+						</div>
+
+
+
+				</td>
+		</tr>
+
+</table>
+
+{% endblock %}

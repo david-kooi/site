@@ -1,0 +1,39 @@
+
+Education
+- UC Santa Cruz (2016 - Current)
+    Major: Computer Engineering
+    GPA: 3.80
+	Graduation Year: 2018
+- Custa College(2012 - 2016)
+	Concentration: General Education and Mobile Development
+
+Professional Experience
+
+- NASA JPL Summer 2017
+	Description: Full cycle development of a new the ground support server
+				 for the Small Scale Flight Software group.
+	Features:    TBD
+
+- NASA JPL Summer 2016
+	Description: Improved and tested the F-Prime Ground Support Equipment 
+                 used in multiple JPL cube-sat missions.
+	Features: 
+				- Developed bug fixes and enhancements
+				- Implemented GSE application state persistence
+				- Created a real-time telemetry visualization display handling 
+				  multiple telemetry channels
+				- Created a UI and API for spacecraft file uplink and 
+				  downlink utilizing cFDP like packets. 
+				- Created a general a F-Prime file packet editor that eases 
+				  creation of packet payloads. 
+
+- NASA JPL Summer 2015
+	Description: Tested and reformated various software components of the
+			     F-Prime C++ autocoder.  
+
+	Features:
+				- Created a Python test suite for C++ code generator
+				- Reformatted the F-Prime code generator to fix 
+				  a design inconsistency
+				- Created a Python wrapper that runs legacy code to perform 
+				  batched Allan Variance calculations.

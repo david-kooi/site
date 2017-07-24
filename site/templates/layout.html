@@ -1,0 +1,46 @@
+<!doctype html>
+
+
+
+<style>
+		body{
+			font-family:"times-new-roman";
+		}
+
+		pre{
+			margin-top:0px;
+		}
+
+		table{
+
+		}
+		td{
+			padding:5px;
+		}
+
+
+
+</style>
+
+<meta content="width=device-width, initial-scale=1">
+<html>
+
+{% if include_header %}
+{% include "nav_links.html" %}
+<hr>
+{% endif %}
+
+
+
+{% block body %}{% endblock %}
+
+<hr>
+<div>
+
+		{% include "nav_links.html" %}
+
+</div>
+
+</html>
+
+
