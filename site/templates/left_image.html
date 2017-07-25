@@ -23,10 +23,14 @@
 								<br>
 
 								{% if content_type == 'text' %}	
-
 								{% include "text_content.html" %}	
-
 								{% endif %}
+
+								{% if content_type == 'links' %}
+								{% include "link_content.html" %}
+								{% endif %}
+
+
 						</div>
 
 

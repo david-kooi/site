@@ -1,0 +1,31 @@
+<head>
+			
+		<script type="text/javascript">// <![CDATA[
+				function preloader(){
+						document.getElementById("loading").style.display = "none";
+						document.getElementById("content").style.display = "block";
+				}//preloader
+				window.onload = preloader;
+		// ]]></script>
+
+</head>
+
+<style>
+div#content {
+display: none;
+}
+
+div#loading {
+top: 200 px;
+margin: auto;
+position: absolute;
+z-index: 1000;
+width: 160px;
+height: 24px;
+background: url('static/images/writing2.jpg') no-repeat;
+cursor: wait;
+}
+
+
+
+

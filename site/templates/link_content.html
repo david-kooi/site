@@ -1,5 +1,10 @@
-{% for link in link_contents %}
 
-	<a href="{{link.href}}"> {{link.name}} </a>
+
+<div id="content">
+{% for name in link_names%}
+
+	<a href="{{link_dict[name]['path']}}"> {{name}} </a>
+	<br>
 
 {% endfor %}
+</div>
