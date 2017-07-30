@@ -10,6 +10,14 @@ from pages.page import Page
 class Writing(Page):
     def __init__(self, *args, **kwargs):
         self.root = ''
+        self.link_cache= {} 
+
+        self.base_info = {'image_path'  : 'images/writing.jpg',
+                          'title'       : 'Writing',
+                          'sub_title'   : 'By David Kooi',
+                          'content_type': 'links'}
+   
+
 
         Page.__init__(self, *args, **kwargs)
 
@@ -25,21 +33,24 @@ Writing = Writing("Writing", __name__, template_folder='templates')
 @Writing.route('/writing')
 def WritingView():
 
-    image_path = 'images/writing.jpg'
-    title      = 'Writing'
-    sub_title  = 'By David Kooi'
-    content_type='links'
-
     link_dict, link_names = GetLinkDict('/writing')
-    print(link_dict)
+    Writing.link_dict = link_dict
 
 
-    return render_template('left_image.html', title=title, sub_title=sub_title,\
-    link_names=link_names, link_dict=link_dict, content_type=content_type, image_path=image_path) 
+    return render_template('left_image.html', **Writing.base_info, link_names=link_names,\
+                                              link_dict=link_dict) 
 
-@Writing.route('/writing/<content_path>')
-def ContentView(content_path):
-    pass
+@Writing.route('/writing/<path:file_path>')
+def ContentView(file_path):
+    
+    file_root = os.path.join('/writing', file_path) 
+    link_dict, link_names = GetLinkDict(file_root) # Get file name
+
+
+    return render_template('left_image.html', **Writing.base_info, link_names=link_names,\
+                                              link_dict=link_dict) 
+
+
 
 
 
@@ -47,21 +58,35 @@ def GetLatestCommitSha():
     cmd = "curl  \"https://api.github.com/repos/david-kooi/writing/commits\""
     output = subprocess.check_output(cmd, shell=True)
     output = output.decode("utf-8")
+    print("OUTPUT: {}".format(output))
 
     return json.loads(output)[0]['sha']
 
-def GetLinkDict(root):
-
-    link_dict = dict()
+def GetLinkDict(base_file_path):
+ 
     link_names = []
+    file_root = os.path.dirname(base_file_path)
 
-    root = os.path.join(Writing.root, root)
-    sha = GetLatestCommitSha()
+    # Continue down the file tree
+ 
+    print("FILE PATH: {}".format(base_file_path))
+    Writing.root = file_root 
+
+    if(base_file_path == '/writing'):
+        sha = GetLatestCommitSha()
+    else:
+        print(Writing.link_cache)
+        sha = Writing.link_cache[base_file_path]['sha'] 
+
+
+    print("")
+    print("")
 
     cmd = "curl  \"https://api.github.com/repos/david-kooi/writing/git/trees/"\
                  "{}\"".format(sha)
     output = subprocess.check_output(cmd, shell=True)
     output = output.decode('utf-8') 
+
 
     git_tree = json.loads(output)['tree']
  
@@ -71,18 +96,20 @@ def GetLinkDict(root):
         url         = f['url']
         content_t   = f['type']
         sha         = f['sha']
-        path        = os.path.join(root, file_name)
         
         if(file_name[0] == '.'):
             continue
  
-        link_dict[file_name] = {'url':url, 'content':content_t, 'root':root, 'sha':sha,\
-                                'path':path} 
-        link_names.append(file_name)
-    
-    
-    Writing.root = root
-    
+        file_path = os.path.join(base_file_path, file_name)
+        Writing.link_cache[file_path] = {}
+        Writing.link_cache[file_path] =    {'url':url, 'content_t':content_t,\
+                                            'sha':sha, 'path':file_path, 'name':file_name} 
+        link_names.append(file_path)
+     
+    link_dict = Writing.link_cache
     link_names = sorted(link_names)
+    Writing.link_cache[file_path]['link_names'] = link_names
+
+
     return link_dict, link_names
  
