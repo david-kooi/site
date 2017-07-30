@@ -3,7 +3,7 @@
 <div id="content">
 {% for name in link_names%}
 
-	<a href="{{link_dict[name]['path']}}"> {{name}} </a>
+	<a href="{{link_dict[name]['path']}}"> {{link_dict[name]['name']}} </a>
 	<br>
 
 {% endfor %}
