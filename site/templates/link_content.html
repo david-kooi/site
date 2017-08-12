@@ -4,7 +4,14 @@
 {% for name in link_names%}
 
 <a href="{{link_dict[name]['path']}}"> {{name}} </a>
-	<br>
+<br>
+
+{% endfor %}
+
+{% for item_name in item_dict %}
+
+<a href="{{item_dict[item_name]['path']}}">{{item_name}}</a>
+<br>
 
 {% endfor %}
 </div>
