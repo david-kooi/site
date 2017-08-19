@@ -20,7 +20,7 @@ class Writing(Page):
 
         self.base_info = {'image_path'  : 'images/writing.jpg',
                           'title'       : 'Writing',
-                          'sub_title'   : 'By David Kooi',
+                          'sub_title'   : 'By David Kooi and Others',
                           'content_type': 'links'}
    
 
@@ -63,10 +63,11 @@ def ContentView(file_path):
     folder_root = os.path.dirname(file_root) 
     file_name   = os.path.basename(file_root)
 
-    if('.' in file_name): # Treat as file 
+    if('.' in file_name): # File has extension: treat as file 
 
         # Get folder items to get file url
         item_dict = Writing.tree[folder_root]['item_dict']
+        print(item_dict)
         url = item_dict[file_name]['url']
 
         info = GetBlobFromGithub(url, file_path) 
@@ -74,6 +75,7 @@ def ContentView(file_path):
         # Set page info
         Writing.base_info['content_type']  = 'text'
         Writing.base_info['info']          = info
+        Writing.base_info['sub_title']     = file_name
 
 
     else: # Treat as folder
@@ -89,6 +91,7 @@ def ContentView(file_path):
         Writing.base_info['item_dict']    = item_dict
         Writing.base_info['link_dict']    = link_dict
         Writing.base_info['link_names']   = link_names
+        Writing.base_info['sub_title']    = file_name 
 
 
     return render_template('left_image.html', **Writing.base_info)
