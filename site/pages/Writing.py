@@ -69,7 +69,7 @@ def ContentView(file_path):
         item_dict = Writing.tree[folder_root]['item_dict']
         url = item_dict[file_name]['url']
 
-        info = GetBlobFromGithub(url) 
+        info = GetBlobFromGithub(url, file_path) 
 
         # Set page info
         Writing.base_info['content_type']  = 'text'
@@ -105,15 +105,27 @@ def GetLatestCommitSha():
 
     return json.loads(output)[0]['sha']
 
-def GetBlobFromGithub(url):
+def GetBlobFromGithub(url, file_path):
     cmd = "curl {}".format(url)
     output = subprocess.check_output(cmd, shell=True)
     output = output.decode('utf-8')
     content = json.loads(output)['content']
     content = base64.b64decode(content)
-    content = content.decode('utf-8')
+    try:
+        content = content.decode('utf-8')
+    except UnicodeDecodeError:
+        content = GetDecodeErrorMessage(file_path)
+        LogDecodeError(file_path)
     
     return content 
+
+def GetDecodeErrorMessage(file_path):
+    return "Rtf continues it's vengance. We've experienced a decode error." 
+
+def LogDecodeError(file_path):
+    #TODO
+    pass
+
 
 def SetTreeFromRoot():
 
