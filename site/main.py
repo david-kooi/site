@@ -1,4 +1,7 @@
 import os
+import json
+import base64
+
 from flask import Flask, request, render_template, url_for
 from flask_restful import Resource, Api
 
@@ -32,10 +35,22 @@ for page in page_list:
 
 # Setup REST Resources
 class DataReceive(Resource):
-    def put(self, datetime):
-        print("Received: {}".format(request.form['data']))
+    """
+    Endpoint for hologram io to send telemetry
+    """
+    def post(self):
+        print("Got post") 
+        payload = request.form['payload'] 
 
-api.add_resource(DataReceive, '/<string:datetime>')
+        # Payload is a json string
+        payload_dict = json.loads(payload) 
+
+        # Data is base64 encoded
+        data = base64.b64decode(payload_dict['data'])
+
+        print("Received: {}".format(data))
+
+api.add_resource(DataReceive, '/data_input')
 
 
 
@@ -55,5 +70,8 @@ def LayoutLinkProcessor():
 
     # include_header is true by default
     return dict(links=links, include_header=True)
+
+if __name__ == "__main__":
+   app.run(host="0.0.0.0", port=5000)
 
 

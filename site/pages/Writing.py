@@ -47,9 +47,11 @@ def WritingView():
    
     # Get file items
     item_dict = Writing.tree['/writing']['item_dict']
+    item_names = []
     
     Writing.base_info['content_type'] = 'links'
     Writing.base_info['item_dict']    = item_dict
+    Writing.base_info['item_names']   = item_names
     Writing.base_info['link_dict']    = link_dict
     Writing.base_info['link_names']   = link_names
 
@@ -59,6 +61,7 @@ def WritingView():
 @Writing.route('/writing/<path:file_path>')
 def ContentView(file_path):
     
+    #print("FILEPATH {}".format(file_path))
     file_root   = os.path.join('/writing', file_path) 
     folder_root = os.path.dirname(file_root) 
     file_name   = os.path.basename(file_root)
@@ -81,14 +84,19 @@ def ContentView(file_path):
     else: # Treat as folder
         
         link_dict, link_names = GetLinkDict(file_root) # Get file name
+        #print("AS FOLDER")
         #print(link_dict)
 
         # Get file items
         item_dict = Writing.tree[file_root]['item_dict']
+        item_names = [name for name in item_dict]
+        item_names = sorted(item_names)
+        print(item_names)
 
         # Set page info
         Writing.base_info['content_type'] = 'links'
         Writing.base_info['item_dict']    = item_dict
+        Writing.base_info['item_names']   = item_names
         Writing.base_info['link_dict']    = link_dict
         Writing.base_info['link_names']   = link_names
         Writing.base_info['sub_title']    = file_name 
