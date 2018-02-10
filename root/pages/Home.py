@@ -22,7 +22,7 @@ def HomeView():
     config = Homepage.GetConfig()
 
     info         = GetTextAsList(config['text_path'], "info.txt")
-    image_path   = "images/self.jpg"
+    image_path   = "images/headshot_good.JPG"
     title        = 'David Kooi'
     sub_title    = 'kooi.david.w(at)gmail.com'
     content_type = "text"

@@ -21,7 +21,7 @@ def CVView():
     config = CV.GetConfig()
 
     info       = GetTextAsList(config['text_path'], "cv.txt")
-    image_path = 'images/self.jpg'
+    image_path = 'images/headshot_good.JPG'
     title      = 'David Kooi'
     sub_title  = 'kooi.david.w(at)gmail.com'
     content_type = 'text'
