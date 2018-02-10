@@ -4,3 +4,7 @@ Major: Computer Engineering
 
 Current Classes:    Senior Design, Digital Control, Technical Writing 
 Current Employment: None 
+
+
+
+Site Last Updated: 2/9/18
