@@ -6,9 +6,10 @@ from flask import Flask, request, render_template, url_for
 from flask_restful import Resource, Api
 
 
-from pages.Home    import Homepage
-from pages.CV      import CV
-from pages.Writing import Writing
+from pages.Home     import Homepage
+from pages.CV       import CV
+from pages.Writing  import Writing
+from pages.Projects import ProjectPage 
 
 from utils.page_manager import PageManager
 
@@ -23,7 +24,7 @@ app.config['text_path']   = os.path.join(app.config['static_path'],'text')
 
 # Setup Pages
 page_manager = PageManager.GetInstance()
-page_list = [Homepage, CV, Writing]
+page_list = [Homepage, CV, Writing, ProjectPage]
 
 # Register pages to app and page_manager
 for page in page_list:
