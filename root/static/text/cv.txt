@@ -90,7 +90,7 @@ Professional Experience
 		- Created a Python wrapper that runs legacy C code to perform 
 		  batched Allan Variance calculations.
 
-Running Warehouse, San Luis Obispo CA (January-June 2015)
+- Running Warehouse, San Luis Obispo CA (January-June 2015)
 
 	Worked with the image processing division to create a web application that
 	automated a manual employee process. Primary work done with the PHP backend 
