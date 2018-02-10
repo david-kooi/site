@@ -1,39 +1,113 @@
 
 Education
-- UC Santa Cruz (2016 - Current)
+'''''''''
+- University of California Santa Cruz (2016 - Current)
     Major: Computer Engineering
-    GPA: 3.80
-	Graduation Year: 2018
-- Custa College(2012 - 2016)
-	Concentration: General Education and Mobile Development
+    GPA: 3.73
 
+	BS Graduation Year: 2018
+	MS Graduation Year: 2020
+
+	- Selected Coursework:
+
+			  Algorithms, Computer Architecture, Probability/Statistics, 
+			  Computer Systems in C, Logic Design,  Signals and Systems,
+			  Microcontrollers, Intro to Mechatronics, Feedback and Control, 
+			  Models of Robotic Manipulation, Technical Writing, 
+			  Digital Signal Processing, Digital Control
+
+	- UCSC Senior Design Project: Topcon Corporation Sponsored Bulldozer
+								  Automation 
+
+		Objective: Use a stereo vision and feature recognition to
+				   characterize the mass density of a dirt pile,
+				   calculate an optimal approach vector, fill
+				   bucket, maneuver to dump site, return and repeat. 
+
+	- Extracurricular Involvement:
+			UCSC IEEE
+			UCSC Rocket Club
+			UCSC Tau Beta Pi
+		
 Professional Experience
+'''''''''''''''''''''''
+- UC Santa Cruz Mechatronics
 
-- NASA JPL Summer 2017
-	Description: Full cycle development of a new the ground support server
-				 for the Small Scale Flight Software group.
-	Features:    TBD
+	We developed the mechanical and electronic hardware; and event driven
+	software, necessary to complete a series of tasks within a variable
+	environment. Highlights include: 
 
-- NASA JPL Summer 2016
-	Description: Improved and tested the F-Prime Ground Support Equipment 
-                 used in multiple JPL cube-sat missions.
-	Features: 
-				- Developed bug fixes and enhancements
-				- Implemented GSE application state persistence
-				- Created a real-time telemetry visualization display handling 
-				  multiple telemetry channels
-				- Created a UI and API for spacecraft file uplink and 
-				  downlink utilizing cFDP like packets. 
-				- Created a general a F-Prime file packet editor that eases 
-				  creation of packet payloads. 
+	- Using motion profiling for complex maneuvering
+	- Feedback control for line following  
+	- Identifying signal peaks using a real-time derivative 
+	- Developing signal conditioning and power distribution circuits. 
 
-- NASA JPL Summer 2015
-	Description: Tested and reformated various software components of the
-			     F-Prime C++ autocoder.  
+- NASA JPL Summer, Pasadena CA (January-June 2015)
 
-	Features:
-				- Created a Python test suite for C++ code generator
-				- Reformatted the F-Prime code generator to fix 
-				  a design inconsistency
-				- Created a Python wrapper that runs legacy code to perform 
-				  batched Allan Variance calculations.
+	Worked in the Autonomous Systems Division under the Small Scale Flight
+	Software group. Work was performed within the open source, model based NASA 
+	JPL FPrime flight software framework.
+
+	Worked involved: 
+		- Full design cycle to rebuild the a ground support server using
+		  Python ZeroMQ middleware  
+		- Designing the architecture supporting a dynamic, many-many,
+		  ‘publish-subscribe’ distributed system 
+		- Designing ‘pluggable’ inline packet protocol translation 
+		- Developing an embedded C++ ‘ZmqRadio’ component enabling robust
+		  communication between embedded systems and the new server. 
+
+
+- NASA JPL Summer, Pasadena CA (January-June 2015) 
+
+	Worked in the Autonomous Systems Division under the Small Scale Flight
+	Software group. Work was performed within the open source, model based NASA
+	JPL FPrime flight software framework.
+
+	Worked involved: 
+		- Developed bug fixes and enhancements
+		- Implemented GSE application state persistence
+		- Created a real-time telemetry visualization display handling
+		  multiple telemetry channels
+		- Created a UI and API for spacecraft file uplink and downlink
+		  utilizing cFDP like packets. 
+		- Created a general a F-Prime file packet editor that eases creation
+		  of packet payloads. 
+		- Created a C++ signal generator component for telemetry
+		  visualization testing.
+
+- NASA JPL Summer, Pasadena CA (June-September 2015)
+
+	Worked in the Autonomous Systems Division under the Small Scale Flight
+	Software group. Work was performed within the open source, model based NASA 
+	JPL FPrime flight software framework.
+
+	Worked involved: 
+
+		- Writing a multi-level testing suite that tested C++ code generation , 
+		  configuration file parsing, C++ building and runtime performance.  
+		- Refactored a portion of the code generator to fix a design inconsistency 
+		- Created a Python wrapper that runs legacy C code to perform 
+		  batched Allan Variance calculations.
+
+Running Warehouse, San Luis Obispo CA (January-June 2015)
+
+	Worked with the image processing division to create a web application that
+	automated a manual employee process. Primary work done with the PHP backend 
+	to support MySQL operations.   
+
+Skills
+''''''
+Programming Languages: Python, C, C++, Java, Unix Shell Scripting,
+					     Verilog, PLC Ladder Logic 
+
+Software Frameworks: ZeroMQ, PointCloudLibrary, ROS, Numpy, Matplotlib,
+				     Tkinter, Git, Nose, Android SDK, Flask  
+
+Software Methodologies: OOP Design Patterns, Model Based Design, UML modeling
+
+Electrical: Basic circuit design, analysis, fabrication. Troubleshooting
+		    with multimeters, oscilloscopes,and logic analyzers
+
+
+* References available upon request *
