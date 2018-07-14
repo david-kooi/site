@@ -1,12 +1,13 @@
 
 Education
 '''''''''
-- University of California Santa Cruz (2016 - Current)
-    Major: Computer Engineering
-    GPA: 3.73
+- University of California Santa Cruz(2018 - Current)
+	MS Computer Engineering	
+	Expected Graduation: June 2020	
 
-	BS Graduation Year: 2018
-	MS Graduation Year: 2020
+- University of California Santa Cruz (2016 - 2018)
+	BS Computer Engineering 
+    GPA: 3.8
 
 	- Selected Coursework:
 
@@ -19,10 +20,10 @@ Education
 	- UCSC Senior Design Project: Topcon Corporation Sponsored Bulldozer
 								  Automation 
 
-		Objective: Use a stereo vision and feature recognition to
-				   characterize the mass density of a dirt pile,
-				   calculate an optimal approach vector, fill
-				   bucket, maneuver to dump site, return and repeat. 
+		Objective: Use a stereo vision and neural network feature recognition 
+				   to identify and characterize the a dirt pile,
+				   calculate an optimal approach vector, fill bucket, visual verify 
+				   full bucket, maneuver to dump site, return and repeat. 
 
 	- Extracurricular Involvement:
 			UCSC IEEE
@@ -31,6 +32,9 @@ Education
 		
 Professional Experience
 '''''''''''''''''''''''
+- NASA JPL Summer, Pasadena CA (January-June 2018)
+	Pending...
+
 - UC Santa Cruz Mechatronics
 
 	We developed the mechanical and electronic hardware; and event driven
@@ -42,7 +46,7 @@ Professional Experience
 	- Identifying signal peaks using a real-time derivative 
 	- Developing signal conditioning and power distribution circuits. 
 
-- NASA JPL Summer, Pasadena CA (January-June 2015)
+- NASA JPL Summer, Pasadena CA (June-September 2017)
 
 	Worked in the Autonomous Systems Division under the Small Scale Flight
 	Software group. Work was performed within the open source, model based NASA 
@@ -58,7 +62,7 @@ Professional Experience
 		  communication between embedded systems and the new server. 
 
 
-- NASA JPL Summer, Pasadena CA (January-June 2015) 
+- NASA JPL Summer, Pasadena CA (June-September 2016) 
 
 	Worked in the Autonomous Systems Division under the Small Scale Flight
 	Software group. Work was performed within the open source, model based NASA
@@ -88,7 +92,7 @@ Professional Experience
 		  configuration file parsing, C++ building and runtime performance.  
 		- Refactored a portion of the code generator to fix a design inconsistency 
 		- Created a Python wrapper that runs legacy C code to perform 
-		  batched Allan Variance calculations.
+		  batched data processing 
 
 - Running Warehouse, San Luis Obispo CA (January-June 2015)
 
@@ -98,7 +102,7 @@ Professional Experience
 
 Skills
 ''''''
-Programming Languages: Python, C, C++, Java, Unix Shell Scripting,
+Programming Languages:   Python, C, C++, Java, Unix Shell Scripting,
 					     Verilog, PLC Ladder Logic 
 
 Software Frameworks: ZeroMQ, PointCloudLibrary, ROS, Numpy, Matplotlib,
