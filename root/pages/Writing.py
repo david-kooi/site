@@ -74,7 +74,11 @@ def ContentView(file_path):
 
         if('latest_update' in file_name):
             info = ""
-            with open("static/text/latest_update.txt", "r") as f:
+
+            folder = os.path.dirname(os.path.abspath(__file__))
+            folder = os.path.dirname(folder)
+            filename = os.path.join(folder, "static/text/latest_update.txt") 
+            with open(filename, "r") as f:
                 info = f.read()
         else:
             # Get folder items to get file url
@@ -169,8 +173,9 @@ def LogDecodeError(file_path):
 
 def WriteLatestUpdate(date, file_list):
 
-   folder = os.path.dirname(os.path.abspath(__file__))
-   filename = os.path.join(folder, "static/text/latest_update.txt") 
+    folder = os.path.dirname(os.path.abspath(__file__))
+    folder = os.path.dirname(folder)
+    filename = os.path.join(folder, "static/text/latest_update.txt") 
     
     with open(filename, "w") as f: 
         f.write("Last updated: {}\n\n".format(date))
