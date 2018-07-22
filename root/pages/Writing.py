@@ -169,10 +169,15 @@ def LogDecodeError(file_path):
 
 def WriteLatestUpdate(date, file_list):
 
-    with open("static/text/latest_update.txt", "w") as f: 
+   folder = os.path.dirname(os.path.abspath(__file__))
+   filename = os.path.join(folder, "static/text/latest_update.txt") 
+    
+    with open(filename, "w") as f: 
         f.write("Last updated: {}\n\n".format(date))
         for action, filename in file_list:
             f.write("{}: {}\n".format(action.title(), filename))
+
+
 
 
 def SetTreeFromRoot():
