@@ -1,5 +1,4 @@
 import os
-import sys
 import json
 import base64
 import codecs
@@ -48,6 +47,11 @@ def WritingView():
     # Get file items
     item_dict = Writing.tree['/writing']['item_dict']
     item_names = []
+
+    # Add latest update file
+    item_dict['-> latest_update <-'] = {}
+    item_dict['-> latest_update <-']['path'] = "/writing/latest_update.txt"
+    item_names = ['-> latest_update <-']
     
     Writing.base_info['content_type'] = 'links'
     Writing.base_info['item_dict']    = item_dict
@@ -68,12 +72,17 @@ def ContentView(file_path):
 
     if('.' in file_name): # File has extension: treat as file 
 
-        # Get folder items to get file url
-        item_dict = Writing.tree[folder_root]['item_dict']
-        print(item_dict)
-        url = item_dict[file_name]['url']
+        if('latest_update' in file_name):
+            info = ""
+            with open("static/text/latest_update.txt", "r") as f:
+                info = f.read()
+        else:
+            # Get folder items to get file url
+            item_dict = Writing.tree[folder_root]['item_dict']
+            print(item_dict)
+            url = item_dict[file_name]['url']
 
-        info = GetBlobFromGithub(url, file_path) 
+            info = GetBlobFromGithub(url, file_path) 
 
         # Set page info
         Writing.base_info['content_type']  = 'text'
@@ -108,13 +117,34 @@ def ContentView(file_path):
 
 
 
-def GetLatestCommitSha():
+def GetLatestCommitSha(file_list):
+    """
+    Return the latest commit SHA.
+    Also, add the status and filename of all changed files.
+    """
     cmd = "curl  \"https://api.github.com/repos/david-kooi/writing/commits\""
     output = subprocess.check_output(cmd, shell=True)
     output = output.decode("utf-8")
     #print("OUTPUT: {}".format(output))
+    
+    sha = json.loads(output)[0]['sha']
 
-    return json.loads(output)[0]['sha']
+    cmd = cmd + "/" + sha 
+    output = subprocess.check_output(cmd, shell=True)
+    output = output.decode("utf-8")
+    
+    output = json.loads(output)
+     
+    file_blob = output['files']
+    for g_file in file_blob:
+        action    = g_file['status']
+        file_name = g_file['filename']
+        file_list.append((action, file_name)) 
+
+
+    date = output['commit']['author']['date'][0:9] 
+    
+    return date, sha  
 
 def GetBlobFromGithub(url, file_path):
     cmd = "curl {}".format(url)
@@ -137,10 +167,20 @@ def LogDecodeError(file_path):
     #TODO
     pass
 
+def WriteLatestUpdate(date, file_list):
+
+    with open("static/text/latest_update.txt", "w") as f: 
+        f.write("Last updated: {}\n\n".format(date))
+        for action, filename in file_list:
+            f.write("{}: {}\n".format(action.title(), filename))
+
 
 def SetTreeFromRoot():
 
-    sha = GetLatestCommitSha()
+    file_list = []
+    date, sha = GetLatestCommitSha(file_list)
+
+    WriteLatestUpdate(date, file_list)
 
     cmd = "curl  \"https://api.github.com/repos/david-kooi/writing/git/trees/"\
                  "{}\"?recursive=1".format(sha)
@@ -214,3 +254,4 @@ def GetLinkDict(base_path):
         
     return link_dict, link_names
  
+import os

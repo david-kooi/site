@@ -10,8 +10,14 @@
 
 {% for name in item_names%}
 
+{% if name == '-> latest_update <-' %}
+<br> 
+<br>
+<a href="{{item_dict[name]['path']}}">{{name}}</a>
+{% else %}
 <a href="{{item_dict[name]['path']}}">{{name}}</a>
 <br>
+{%endif%}
 
 {% endfor %}
 </div>
