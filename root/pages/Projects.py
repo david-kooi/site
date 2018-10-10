@@ -12,7 +12,14 @@ class ProjectPage(Page):
                           'title'       : 'Papers and Projects',
                           'sub_title'   : '',
                           'content_type': 'links'}
- 
+
+        
+        self.base_info['link_dict']  = {\
+                "paper_1":{"path":"https://www.pinkbike.com"}}
+        link_names = [key for key in self.base_info['link_dict']]
+
+        self.base_info['link_names'] = link_names
+        
 
     def GetName(self):
         return "Papers and Projects"
@@ -21,7 +28,7 @@ class ProjectPage(Page):
         return url_for("Projects.ProjectView")
 
 
-ProjectPage = ProjectPage("Papers And Projects",\
+ProjectPage = ProjectPage("Projects",\
                           __name__, template_folder='templates')
 
 @ProjectPage.route('/papers_and_projects')
