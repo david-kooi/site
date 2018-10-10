@@ -9,21 +9,22 @@ class ProjectPage(Page):
         Page.__init__(self, *args, **kwargs)
 
         self.base_info = {'image_path'  : 'images/projects_cropped.jpg',
-                          'title'       : 'Projects',
-                          'sub_title'   : '* Under Construction *',
+                          'title'       : 'Papers and Projects',
+                          'sub_title'   : '',
                           'content_type': 'links'}
  
 
     def GetName(self):
-        return "Projects"
+        return "Papers and Projects"
     
     def GetRootUrl(self):
         return url_for("Projects.ProjectView")
 
 
-ProjectPage = ProjectPage("Projects", __name__, template_folder='templates')
+ProjectPage = ProjectPage("Papers And Projects",\
+                          __name__, template_folder='templates')
 
-@ProjectPage.route('/projects')
+@ProjectPage.route('/papers_and_projects')
 def ProjectView():
     config = ProjectPage.GetConfig()
 

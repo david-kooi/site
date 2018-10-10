@@ -1,9 +1,16 @@
 
 Graduate Studies at UC Santa Cruz
 Computer Engineering
+Hybrid Systems Lab
 
-Current Classes:    None 
-Current Employment: NASA JPL 
+Interests:
+    - Hybrid Model Predictive Control
+    - Hybrid Controller Synthesis from Formal Specifications
+
+Current Classes:    Linear Dynamics and Feedback Control
+                    Computer Architecture
+                    TA-ship Training 
+Current Employment: UC Santa Cruz Undergraduate Senior Design TA 
 
 
-Site Last Updated: 6/23/18
+Site Last Updated: 10/9/18

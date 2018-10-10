@@ -3,6 +3,7 @@ Education
 '''''''''
 - University of California Santa Cruz(2018 - Current)
 	MS Computer Engineering	
+    Affiliated with UC Santa Cruz Hybrid Systems Lab
 	Expected Graduation: June 2020	
 
 - University of California Santa Cruz (2016 - 2018)
@@ -17,13 +18,12 @@ Education
 			  Models of Robotic Manipulation, Technical Writing, 
 			  Digital Signal Processing, Digital Control
 
-	- UCSC Senior Design Project: Topcon Corporation Sponsored Bulldozer
-								  Automation 
-
+	- UCSC Senior Design Project: Topcon Corporation Autonomous Sockpile
+                                  Relocation R&D 
 		Objective: Use a stereo vision and neural network feature recognition 
-				   to identify and characterize the a dirt pile,
-				   calculate an optimal approach vector, fill bucket, visual verify 
-				   full bucket, maneuver to dump site, return and repeat. 
+				   to identify and characterize the a stockpile,
+				   calculate an optimal approach vector, fill bucket, visually verify 
+				   bucket fill, maneuver to dump site, return and repeat. 
 
 	- Extracurricular Involvement:
 			UCSC IEEE
