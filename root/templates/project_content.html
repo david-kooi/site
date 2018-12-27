@@ -2,15 +2,15 @@
 
 <div id="content">
 
-<p> By David Kooi </p>
-{% for name in personal_projects%}
+<p> By/With  David Kooi </p>
+{% for name in personal_names%}
 <a href="{{personal_projects[name]['path']}}"> {{name}} </a>
 <br>
 {% endfor %}
 
 <br>
 <p> Interesting Literature</p>
-{% for name in by_others%}
+{% for name in other_names%}
 <a href="{{by_others[name]['path']}}"> {{name}} </a>
 <br>
 {% endfor %}

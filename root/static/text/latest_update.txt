@@ -1,5 +1,3 @@
-Last updated: 2018-12-0
+Last updated: 2018-12-2
 
-Added: Poems/2018/along_the_shore.txt
-Modified: Reflections/2018/galey_young_1.txt
-Modified: Reflections/2018/galey_young_2.txt
+Modified: Stories/trip_log.txt
