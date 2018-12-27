@@ -7,10 +7,11 @@ Interests:
     - Hybrid Model Predictive Control
     - Hybrid Controller Synthesis from Formal Specifications
 
-Current Classes:    Linear Dynamics and Feedback Control
-                    Computer Architecture
-                    TA-ship Training 
+Current Classes:    Numerical Optimization
+                    Cyber Physical Systems  
+                    Analysis of Alforithms 
+                   
 Current Employment: UC Santa Cruz Undergraduate Senior Design TA 
 
 
-Site Last Updated: 10/9/18
+Site Last Updated: 12/26/18
