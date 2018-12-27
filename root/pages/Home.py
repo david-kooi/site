@@ -24,7 +24,7 @@ def HomeView():
     info         = GetTextAsList(config['text_path'], "info.txt")
     image_path   = "images/headshot_good.JPG"
     title        = 'David Kooi'
-    sub_title    = 'kooi.david.w(at)gmail.com'
+    sub_title    = 'dkooi@ucsc.edu'
     content_type = "text"
 
     return render_template('left_image.html', include_header=False, title=title, sub_title=sub_title,\
