@@ -1,5 +1,5 @@
 import os
-from flask import Blueprint, render_template, url_for
+from flask import Blueprint, render_template, url_for, redirect
 
 from pages.page import Page
 from utils.utils import GetTextAsList
@@ -26,7 +26,7 @@ def CVView():
     sub_title  = 'kooi.david.w(at)gmail.com'
     content_type = 'text'
 
-    return redirect(url_for("static", "pdf/resume.pdf"))
+    return redirect(url_for("static", filename="pdf/davidkooi_resume.pdf"))
 #    return render_template('left_image.html', title=title, sub_title=sub_title,\
 #                            content_type=content_type, image_path=image_path, info=info)
 
