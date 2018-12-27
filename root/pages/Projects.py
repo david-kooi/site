@@ -13,8 +13,12 @@ class ProjectPage(Page):
                           'sub_title'   : '',
                           'content_type': 'links'}
 
-        
+        perceptron_pdf_path = "pdf/ohsnap_perceptron_dkooi.pdf"
+
         self.base_info['link_dict']  = {\
+                "Perceptron Branch Predictor":\
+                {"path":urlfor('static',filename=perceptron_pdf_path)},\
+
                 "Optimal Control Using Temporal Logic":{"path":"https://hybrid.soe.ucsc.edu/sites/default/files/preprints/31.pdf"},\
                 "Temporal Logic Specifications in for Hybrid Systems":{"path":"https://arxiv.org/abs/1807.02574"},\
                 "Hybrid Controller Synthesis using Formal Specification":{"path":"https://ieeexplore.ieee.org/document/8396562?reload=true"}\
