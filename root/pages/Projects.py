@@ -11,22 +11,20 @@ class ProjectPage(Page):
         self.base_info = {'image_path'  : 'images/projects_cropped.jpg',
                           'title'       : 'Papers and Projects',
                           'sub_title'   : '',
-                          'content_type': 'links'}
+                          'content_type': 'projects'}
 
-        perceptron_pdf_path = "pdf/ohsnap_perceptron_dkooi.pdf"
 
-        self.base_info['link_dict']  = {\
-                "Perceptron Branch Predictor":\
-                {"path":urlfor('static',filename=perceptron_pdf_path)},\
+        self.base_info["personal_projects"] = {\
+                "Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
+                }
 
+        self.base_info['by_others']  = {\
                 "Optimal Control Using Temporal Logic":{"path":"https://hybrid.soe.ucsc.edu/sites/default/files/preprints/31.pdf"},\
                 "Temporal Logic Specifications in for Hybrid Systems":{"path":"https://arxiv.org/abs/1807.02574"},\
                 "Hybrid Controller Synthesis using Formal Specification":{"path":"https://ieeexplore.ieee.org/document/8396562?reload=true"}\
-                
                 }
 
-        link_names = [key for key in self.base_info['link_dict']]
-
+        link_names = [key for key in self.base_info['by_others']]
         self.base_info['link_names'] = link_names
         
 
@@ -43,7 +41,5 @@ ProjectPage = ProjectPage("Projects",\
 @ProjectPage.route('/papers_and_projects')
 def ProjectView():
     config = ProjectPage.GetConfig()
-
-    ProjectPage.base_info['content_type'] = 'links'
 
     return render_template('left_image.html', **ProjectPage.base_info)

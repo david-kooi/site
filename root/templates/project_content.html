@@ -1,0 +1,18 @@
+
+
+<div id="content">
+
+<p> By David Kooi </p>
+{% for name in personal_projects%}
+<a href="{{personal_projects[name]['path']}}"> {{name}} </a>
+<br>
+{% endfor %}
+
+<br>
+<p> Interesting Literature</p>
+{% for name in by_others%}
+<a href="{{by_others[name]['path']}}"> {{name}} </a>
+<br>
+{% endfor %}
+
+</div>
