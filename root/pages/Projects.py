@@ -15,7 +15,12 @@ class ProjectPage(Page):
 
         
         self.base_info['link_dict']  = {\
-                "paper_1":{"path":"https://www.pinkbike.com"}}
+                "Optimal Control Using Temporal Logic":{"path":"https://hybrid.soe.ucsc.edu/sites/default/files/preprints/31.pdf"},\
+                "Temporal Logic Specifications in for Hybrid Systems":{"path":"https://arxiv.org/abs/1807.02574"},\
+                "Hybrid Controller Synthesis using Formal Specification":{"path":"https://ieeexplore.ieee.org/document/8396562?reload=true"}\
+                
+                }
+
         link_names = [key for key in self.base_info['link_dict']]
 
         self.base_info['link_names'] = link_names
