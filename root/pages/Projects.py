@@ -15,7 +15,10 @@ class ProjectPage(Page):
 
 
         self.base_info["personal_projects"] = {\
-                "Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
+                "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
+                "05-2018 Topcon Automated Bulldozer Slides":{"path":"/static/pdf/topcon_automated_bulldozer_slides.pdf"},\
+                "05-2018 Topcon Automated Bulldozer Poster":{"path":"/static/pdf/topcon_automated_bulldozer_poster.pdf"},\
+                "12-2017 Mechatronics Elevator Bot Report":{"path":"/static/pdf/2017_mechatronics_report.pdf"},\
                 }
 
         self.base_info['by_others']  = {\
@@ -24,8 +27,17 @@ class ProjectPage(Page):
                 "Hybrid Controller Synthesis using Formal Specification":{"path":"https://ieeexplore.ieee.org/document/8396562?reload=true"}\
                 }
 
-        link_names = [key for key in self.base_info['by_others']]
-        self.base_info['link_names'] = link_names
+        personal_names = [key for key in self.base_info['personal_projects']]
+        other_names    = [key for key in self.base_info['by_others']]
+ 
+        def date_sort(item):
+            date  = item.split(' ')[0]
+            month = date.split('-')[0]
+            year  = date.split('-')[1] 
+            return year,month
+
+        self.base_info['personal_names']  = sorted(personal_names, key=date_sort, reverse=True) 
+        self.base_info['other_names']     = sorted(other_names, reverse=False)
         
 
     def GetName(self):
