@@ -7,11 +7,11 @@ Interests:
     - Hybrid Model Predictive Control
     - Hybrid Controller Synthesis from Formal Specifications
 
-Current Classes:    Numerical Optimization
-                    Cyber Physical Systems  
-                    Analysis of Algorithms 
+Current Classes: None   
+                    
                    
-Current Employment: UC Santa Cruz Undergraduate Senior Design TA 
+Current Employment: Robust Software Engineering 
+                    with STG at NASA Ames 
 
 
-Site Last Updated: 1/1/19
+Site Last Updated: 7/15/19 
