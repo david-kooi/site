@@ -10,6 +10,7 @@ from pages.Home     import Homepage
 from pages.CV       import CV
 from pages.Writing  import Writing
 from pages.Projects import ProjectPage 
+from pages.Photos   import Photos
 
 from utils.page_manager import PageManager
 
@@ -24,7 +25,7 @@ app.config['text_path']   = os.path.join(app.config['static_path'],'text')
 
 # Setup Pages
 page_manager = PageManager.GetInstance()
-page_list = [Homepage, CV, Writing, ProjectPage]
+page_list = [Homepage, CV, Writing, Photos, ProjectPage]
 
 # Register pages to app and page_manager
 for page in page_list:

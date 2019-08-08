@@ -1,3 +1,8 @@
-Last updated: 2019-06-0
+Last updated: 2019-07-2
 
-Added: Poems/2016/did_you_miss_me.txt
+Added: Notes/2019/AdaptiveTesting.txt
+Renamed: Notes/2019/digital_transf_soc_sys.txt
+Renamed: Notes/2019/economic_growth.txt
+Renamed: Notes/2019/robust_software_engr.txt
+Renamed: Notes/2019/science_math_society_eric_w.txt
+Renamed: Notes/2019/starting_a_company.txt

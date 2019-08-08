@@ -26,10 +26,7 @@ def CVView():
     sub_title  = 'kooi.david.w(at)gmail.com'
     content_type = 'text'
 
+    ## All of the above is deprecated because we are serving a PDF
+
     return redirect(url_for("static", filename="pdf/davidkooi_resume.pdf"))
-#    return render_template('left_image.html', title=title, sub_title=sub_title,\
-#                            content_type=content_type, image_path=image_path, info=info)
-
-
-
 
