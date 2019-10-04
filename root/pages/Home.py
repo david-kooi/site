@@ -1,5 +1,5 @@
 import os
-from flask import Blueprint, render_template, url_for
+from flask import Blueprint, render_template, url_for, redirect
 
 from pages.page import Page
 from utils.utils import GetTextAsList
@@ -15,6 +15,11 @@ class Homepage(Page):
         return url_for("Homepage.HomeView")
     
 Homepage = Homepage('Homepage', __name__, template_folder='templates')
+
+
+@Homepage.route('/robots.txt')
+def ReturnRobots():
+    return redirect(url_for("static", filename="robots.txt"))
 
 
 @Homepage.route('/')
