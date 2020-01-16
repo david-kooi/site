@@ -15,6 +15,7 @@ class ProjectPage(Page):
 
 
         self.base_info["personal_projects"] = {\
+                "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"},\
                 "01-2019 Minimal Jerk Polynomial Path Planning(Preliminary Results)":{"path":"/static/pdf/ppp_preliminary_results.pdf"},\
                 "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Slides":{"path":"/static/pdf/topcon_automated_bulldozer_slides.pdf"},\
