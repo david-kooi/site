@@ -1,17 +1,17 @@
 
 Graduate Studies at UC Santa Cruz
-Computer Engineering
+Electrical and Computer Engineering
 Hybrid Systems Lab
 
 Interests:
-    - Hybrid Model Predictive Control
-    - Hybrid Controller Synthesis from Formal Specifications
+    - Generation of robust run-time monitors from formal specifications
 
-Current Classes: None   
+
+Current Classes: Thesis Work 
                     
                    
-Current Employment: Robust Software Engineering 
-                    with STG at NASA Ames 
+Current Employment: TA CSE Senior Design 
+                  
 
 
-Site Last Updated: 7/15/19 
+Site Last Updated: 1/16/20 
