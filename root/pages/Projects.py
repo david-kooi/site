@@ -16,7 +16,7 @@ class ProjectPage(Page):
 
         self.base_info["personal_projects"] = {\
                 "03-2020 Minimum Jerk Polynomial Path Planning":{"path":"/static/pdf/path_planning_presentation.pdf"},\
-                "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"},\ 
+                "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"},\
                 "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Slides":{"path":"/static/pdf/topcon_automated_bulldozer_slides.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Poster":{"path":"/static/pdf/topcon_automated_bulldozer_poster.pdf"},\
