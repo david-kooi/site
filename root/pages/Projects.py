@@ -20,6 +20,9 @@ class ProjectPage(Page):
                 "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Slides":{"path":"/static/pdf/topcon_automated_bulldozer_slides.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Poster":{"path":"/static/pdf/topcon_automated_bulldozer_poster.pdf"},\
+                "05-2018 Topcon Automated Bulldozer Technical Report":{"path":"/static/pdf/topcon_technical_report.pdf"},\
+                "05-2018 Topcon ROS Framework Manual":{"path":"/static/pdf/topcon_ROS_framework_manual.pdf"},\
+                "05-2018 Topcon ROS Action Server Manual":{"path":"/static/pdf/topcon_ROS_action_server.pdf"},\
                 "12-2017 Mechatronics Elevator Bot Report":{"path":"/static/pdf/2017_mechatronics_report.pdf"},\
                 }
 
