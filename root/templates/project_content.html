@@ -5,11 +5,13 @@
 <p> By/With  David Kooi </p>
 
 {% for category in categories %}
-<p> {{category['name']}} </p>
+<p> <b> {{category['name']}} </b> </p>
 
-{% for name in category['contents']%}
-<a href="{{category['contents'][name]['path']}}"> {{name}} </a>
+{% for sorted_name in category['sorted_names']%}
+
+<a href="{{category['contents'][sorted_name]['path']}}"> {{sorted_name}} </a>
 <br>
+
 {% endfor %}
 
 {% endfor %}

@@ -42,10 +42,10 @@ class ProjectPage(Page):
                 }}
 
 
-        self.base_info["categories"] =  { "Motion Planning": self.motion_planning,\
-                                          "Robotic Automation": self.robotic_automation,\
-                                          "Computer Hardware": self.computer_hardware\
-                                        } 
+        self.base_info["categories"] =  [ self.motion_planning,\
+                                          self.robotic_automation,\
+                                          self.computer_hardware\
+                                        ] 
                 
  
 
@@ -64,9 +64,12 @@ class ProjectPage(Page):
             year  = date.split('-')[1] 
             return year,month
         
-        for category in self.base_info["categories"].values():
+
+        for category in self.base_info["categories"]:
             category_contents = [key for key in category["contents"]]
-            category['contents']          = sorted(category_contents, key=date_sort, reverse=True) 
+            category['sorted_names'] = sorted(category_contents, key=date_sort, reverse=True) 
+
+
 
         other_names    = [key for key in self.base_info['by_others']]
         self.base_info['other_names']     = sorted(other_names, reverse=False)
