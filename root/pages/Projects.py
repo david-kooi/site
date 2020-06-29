@@ -14,17 +14,39 @@ class ProjectPage(Page):
                           'content_type': 'projects'}
 
 
-        self.base_info["personal_projects"] = {\
+       
+        # Categories
+        self.motionplanning = {\
+                "name": "Motion Planning",\
+                "contents" : {\
                 "03-2020 Minimum Jerk Polynomial Path Planning":{"path":"/static/pdf/path_planning_presentation.pdf"},\
-                "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"},\
-                "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"},\
+                "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"}
+                }} 
+
+
+        self.robotic_automation = {\
+                "name": "Robotic Automation",\
+                "contents" : {\
                 "05-2018 Topcon Automated Bulldozer Slides":{"path":"/static/pdf/topcon_automated_bulldozer_slides.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Poster":{"path":"/static/pdf/topcon_automated_bulldozer_poster.pdf"},\
                 "05-2018 Topcon Automated Bulldozer Technical Report":{"path":"/static/pdf/topcon_technical_report.pdf"},\
                 "05-2018 Topcon ROS Framework Manual":{"path":"/static/pdf/topcon_ROS_framework_manual.pdf"},\
                 "05-2018 Topcon ROS Action Server Manual":{"path":"/static/pdf/topcon_ROS_action_server.pdf"},\
-                "12-2017 Mechatronics Elevator Bot Report":{"path":"/static/pdf/2017_mechatronics_report.pdf"},\
-                }
+                "12-2017 Mechatronics Elevator Bot Report":{"path":"/static/pdf/2017_mechatronics_report.pdf"}
+                }}
+
+        self.computer_hardware = {\
+                "name": "Computer Hardware",\
+                "contents" : {\
+                "12-2018 Perceptron Branch Predictor ESESC Implementation":{"path":"/static/pdf/ohsnap_perceptron_dkooi.pdf"}
+                }}
+
+
+        self.base_info["categories"] = [self.motionplanning,\
+                                        self.robotic_automtion,\
+                                        self.computer_hardware] 
+                
+ 
 
         self.base_info['by_others']  = {\
                 "Optimal Control Using Temporal Logic":{"path":"https://hybrid.soe.ucsc.edu/sites/default/files/preprints/31.pdf"},\
