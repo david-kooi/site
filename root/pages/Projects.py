@@ -17,8 +17,12 @@ class ProjectPage(Page):
        
         # Categories
         self.motion_planning = {\
-                "name": "Motion Planning",\
+                "name": "Control and Motion Planning",\
                 "contents" : {\
+                "05-2020 Self-Triggered Control Review and Implementation Presentation":{"path":"/static/pdf/ECE_246_Final_presentation"},\
+                "05-2020 Self-Triggered Control Review and Implementation Report":{"path":"/static/pdf/ECE_246_Final_report"},\
+                "03-2020 Temporal Logic Run-Time Monitoring Review and Implementation Report":{"path":"/static/pdf/runtime_monitoring_report.pdf"},\
+                "03-2020 Temporal Logic Run-Time Monitoring Review and Implementation Presentation":{"path":"/static/pdf/runtime_monitoring_presentation.pdf"},\
                 "03-2020 Minimum Jerk Polynomial Path Planning":{"path":"/static/pdf/path_planning_presentation.pdf"},\
                 "05-2019 Regulation and Trajetory Tracking for Robotic Manipulators":{"path":"/static/pdf/regulation_robotic_manipulators.pdf"}
                 }} 

@@ -4,14 +4,13 @@ Electrical and Computer Engineering
 Hybrid Systems Lab
 
 Interests:
-    - Generation of robust run-time monitors from formal specifications
-
+    - Self-Triggered Control 
 
 Current Classes: Thesis Work 
                     
                    
-Current Employment: TA CSE Senior Design 
+Current Employment: None 
                   
 
 
-Site Last Updated: 1/16/20 
+Site Last Updated: 6/29/20 
