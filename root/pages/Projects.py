@@ -19,8 +19,8 @@ class ProjectPage(Page):
         self.motion_planning = {\
                 "name": "Control and Motion Planning",\
                 "contents" : {\
-                "05-2020 Self-Triggered Control Review and Implementation Presentation":{"path":"/static/pdf/ECE_246_Final_presentation"},\
-                "05-2020 Self-Triggered Control Review and Implementation Report":{"path":"/static/pdf/ECE_246_Final_report"},\
+                "05-2020 Self-Triggered Control Review and Implementation Presentation":{"path":"/static/pdf/ECE_246_Final_presentation.pdf"},\
+                "05-2020 Self-Triggered Control Review and Implementation Report":{"path":"/static/pdf/ECE_246_Final_report.pdf"},\
                 "03-2020 Temporal Logic Run-Time Monitoring Review and Implementation Report":{"path":"/static/pdf/runtime_monitoring_report.pdf"},\
                 "03-2020 Temporal Logic Run-Time Monitoring Review and Implementation Presentation":{"path":"/static/pdf/runtime_monitoring_presentation.pdf"},\
                 "03-2020 Minimum Jerk Polynomial Path Planning":{"path":"/static/pdf/path_planning_presentation.pdf"},\
