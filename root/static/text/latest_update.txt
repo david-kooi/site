@@ -1,3 +1,5 @@
-Last updated: 2019-09-2
+Last updated: 2020-05-1
 
-Added: Notes/regex_tips.txt
+Added: By_Others/ComputerEngr/convert_gif_cmd_line.txt
+Modified: Lists/artists.txt
+Added: Notes/2020/advanted_autonomy_unstructured_env.txt

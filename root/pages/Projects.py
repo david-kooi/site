@@ -16,7 +16,7 @@ class ProjectPage(Page):
 
        
         # Categories
-        self.motionplanning = {\
+        self.motion_planning = {\
                 "name": "Motion Planning",\
                 "contents" : {\
                 "03-2020 Minimum Jerk Polynomial Path Planning":{"path":"/static/pdf/path_planning_presentation.pdf"},\
@@ -42,9 +42,10 @@ class ProjectPage(Page):
                 }}
 
 
-        self.base_info["categories"] = [self.motionplanning,\
-                                        self.robotic_automtion,\
-                                        self.computer_hardware] 
+        self.base_info["categories"] =  { "Motion Planning": self.motion_planning,\
+                                          "Robotic Automation": self.robotic_automation,\
+                                          "Computer Hardware": self.computer_hardware\
+                                        } 
                 
  
 
@@ -54,16 +55,20 @@ class ProjectPage(Page):
                 "Hybrid Controller Synthesis using Formal Specification":{"path":"https://ieeexplore.ieee.org/document/8396562?reload=true"}\
                 }
 
-        personal_names = [key for key in self.base_info['personal_projects']]
-        other_names    = [key for key in self.base_info['by_others']]
+
+
  
         def date_sort(item):
             date  = item.split(' ')[0]
             month = date.split('-')[0]
             year  = date.split('-')[1] 
             return year,month
+        
+        for category in self.base_info["categories"].values():
+            category_contents = [key for key in category["contents"]]
+            category['contents']          = sorted(category_contents, key=date_sort, reverse=True) 
 
-        self.base_info['personal_names']  = sorted(personal_names, key=date_sort, reverse=True) 
+        other_names    = [key for key in self.base_info['by_others']]
         self.base_info['other_names']     = sorted(other_names, reverse=False)
         
 
